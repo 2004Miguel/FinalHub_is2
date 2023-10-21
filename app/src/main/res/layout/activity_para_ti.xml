@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -49,30 +48,25 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
-        android:gravity="center"
         android:layout_height="wrap_content">
         <Button
             android:layout_width="wrap_content"
             android:text="@string/para_ti"
-            android:id="@+id/para_ti"
             android:layout_height="wrap_content">
         </Button>
         <Button
             android:layout_width="wrap_content"
             android:text="@string/videos"
-            android:id="@+id/videos"
             android:layout_height="wrap_content">
         </Button>
         <Button
             android:layout_width="wrap_content"
             android:text="@string/rutas"
-            android:id="@+id/rutas"
             android:layout_height="wrap_content">
         </Button>
         <Button
             android:layout_width="wrap_content"
             android:text="@string/agencias"
-            android:id="@+id/agencias"
             android:layout_height="wrap_content">
         </Button>
     </LinearLayout>
@@ -80,6 +74,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/screen_parati"
+            android:layout_height="wrap_content">
+
+        </TextView>
     </LinearLayout>
 
 </LinearLayout>

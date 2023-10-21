@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Final_is2</string>
+    <string name="encabezado">TREKKCOLOMBIA</string>
+    <string name="buscar">BUSCAR</string>
+    <string name="icon_buscar">icon_buscar</string>
+    <string name="para_ti">Para ti</string>
+    <string name="videos">Videos</string>
+    <string name="rutas">Rutas</string>
+    <string name="agencias">Agencias</string>
+    <string name="screen_parati">Estas en la pantalla de "para ti"</string>
 </resources>
