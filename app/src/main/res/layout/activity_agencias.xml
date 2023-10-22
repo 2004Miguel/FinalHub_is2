@@ -83,9 +83,8 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:text="@string/para_ti"
+            android:text="@string/screen_agencias"
             android:layout_height="wrap_content">
-
         </TextView>
     </LinearLayout>
 

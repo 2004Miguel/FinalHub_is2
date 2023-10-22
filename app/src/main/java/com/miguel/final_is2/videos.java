@@ -7,14 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class videos extends AppCompatActivity {
 
     Button parati, videos, rutas, agencias;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_videos);
 
         parati = findViewById(R.id.para_ti);
         videos = findViewById(R.id.videos);
@@ -24,25 +25,25 @@ public class MainActivity extends AppCompatActivity {
         parati.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent pt = new Intent(MainActivity.this, para_ti.class);
+                Intent pt = new Intent(videos.this, para_ti.class);
 
                 startActivity(pt);
             }
         });
 
-        videos.setOnClickListener(new View.OnClickListener() {
+        /*videos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent vd = new Intent(MainActivity.this, com.miguel.final_is2.videos.class);
+                Intent vd = new Intent(videos.this, com.miguel.final_is2.videos.class);
 
                 startActivity(vd);
             }
-        });
+        });*/
 
         rutas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent rt = new Intent(MainActivity.this, com.miguel.final_is2.rutas.class);
+                Intent rt = new Intent(videos.this, com.miguel.final_is2.rutas.class);
 
                 startActivity(rt);
             }
@@ -51,11 +52,10 @@ public class MainActivity extends AppCompatActivity {
         agencias.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent ag = new Intent(MainActivity.this, com.miguel.final_is2.agencias.class);
+                Intent ag = new Intent(videos.this, com.miguel.final_is2.agencias.class);
 
                 startActivity(ag);
             }
         });
     }
-
 }

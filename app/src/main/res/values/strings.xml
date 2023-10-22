@@ -8,4 +8,10 @@
     <string name="rutas">Rutas</string>
     <string name="agencias">Agencias</string>
     <string name="screen_parati">Estas en la pantalla de "para ti"</string>
+    <string name="screen_videos">Estas en la pantalla de "videos"</string>
+    <string name="screen_agencias">Estas en la pantalla de "agencias"</string>
+    <string name="screen_rutas">Estas en la pantalla de "rutas"</string>
+
+
+
 </resources>
