@@ -7,72 +7,71 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/titulo">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="end"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/buscar">
+    </ImageView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
-        android:background="@color/black"
+        android:layout_height="40dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="@string/buscar"
+            android:layout_height="wrap_content">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
         android:gravity="center"
         android:layout_height="wrap_content">
-        <TextView
+
+        <Button
+            android:id="@+id/para_ti"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/encabezado">
-        </TextView>
-    </LinearLayout>
+            android:hint="@string/para_ti"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="@string/para_ti">
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:background="@color/red"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:text="@string/buscar"
-            android:layout_height="wrap_content">
-        </TextView>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:gravity="end"
-            android:layout_height="match_parent">
-            <TextView
-                android:layout_width="wrap_content"
-                android:text="@string/icon_buscar"
-                android:background="@color/orange"
-                android:layout_height="wrap_content">
-            </TextView>
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_height="wrap_content">
-        <Button
-            android:layout_width="wrap_content"
-            android:text="@string/para_ti"
-            android:id="@+id/para_ti"
-            android:layout_height="wrap_content">
         </Button>
         <Button
             android:layout_width="wrap_content"
             android:text="@string/videos"
             android:id="@+id/videos"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:layout_height="wrap_content">
         </Button>
         <Button
             android:layout_width="wrap_content"
             android:text="@string/rutas"
             android:id="@+id/rutas"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:layout_height="wrap_content">
         </Button>
         <Button
             android:layout_width="wrap_content"
             android:text="@string/agencias"
             android:id="@+id/agencias"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:layout_height="wrap_content">
         </Button>
     </LinearLayout>
