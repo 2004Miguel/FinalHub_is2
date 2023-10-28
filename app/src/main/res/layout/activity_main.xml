@@ -7,44 +7,31 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/titulo">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="end"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/buscar">
+    </ImageView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:layout_width="50dp"
-            app:srcCompact="@drawable/Trekkcolombia.png"
-            android:layout_height="50dp">
-
-        </ImageView>
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:background="@color/red"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:text="@string/buscar"
-            android:layout_height="wrap_content">
-        </TextView>
-
-        <LinearLayout
+        android:layout_height="40dp">
+        <EditText
             android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:gravity="end"
-            android:layout_height="match_parent">
-            <TextView
-                android:layout_width="wrap_content"
-                android:text="@string/icon_buscar"
-                android:background="@color/orange"
-                android:layout_height="wrap_content">
-            </TextView>
-        </LinearLayout>
+            android:hint="@string/buscar"
+            android:layout_height="wrap_content">
+        </EditText>
+
     </LinearLayout>
 
     <LinearLayout
