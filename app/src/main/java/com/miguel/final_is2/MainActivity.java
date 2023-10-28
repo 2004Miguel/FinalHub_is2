@@ -9,26 +9,26 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button parati, videos, rutas, agencias;
+    Button videos, rutas, agencias;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        parati = findViewById(R.id.para_ti);
+        //parati = findViewById(R.id.para_ti);
         videos = findViewById(R.id.videos);
         rutas = findViewById(R.id.rutas);
         agencias = findViewById(R.id.agencias);
 
-        parati.setOnClickListener(new View.OnClickListener() {
+        /*parati.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent pt = new Intent(MainActivity.this, para_ti.class);
 
                 startActivity(pt);
             }
-        });
+        });*/
 
         videos.setOnClickListener(new View.OnClickListener() {
             @Override

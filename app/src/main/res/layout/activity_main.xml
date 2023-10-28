@@ -39,28 +39,39 @@
         android:orientation="horizontal"
         android:gravity="center"
         android:layout_height="wrap_content">
+
         <Button
-            android:layout_width="wrap_content"
-            android:text="@string/para_ti"
             android:id="@+id/para_ti"
-            android:layout_height="wrap_content">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/para_ti"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="@string/para_ti">
+
         </Button>
         <Button
             android:layout_width="wrap_content"
             android:text="@string/videos"
             android:id="@+id/videos"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:layout_height="wrap_content">
         </Button>
         <Button
             android:layout_width="wrap_content"
             android:text="@string/rutas"
             android:id="@+id/rutas"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:layout_height="wrap_content">
         </Button>
         <Button
             android:layout_width="wrap_content"
             android:text="@string/agencias"
             android:id="@+id/agencias"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:layout_height="wrap_content">
         </Button>
     </LinearLayout>

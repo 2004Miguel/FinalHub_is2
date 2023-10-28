@@ -25,7 +25,7 @@ public class videos extends AppCompatActivity {
         parati.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent pt = new Intent(videos.this, para_ti.class);
+                Intent pt = new Intent(videos.this, MainActivity.class);
 
                 startActivity(pt);
             }
