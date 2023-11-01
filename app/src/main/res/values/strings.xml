@@ -12,5 +12,15 @@
     <string name="screen_agencias">Estas en la pantalla de "agencias"</string>
     <string name="screen_rutas">Estas en la pantalla de "rutas"</string>
 
+    //Registro
+    <string name="registro">REGISTRO</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="nombreuser">Nombre De Usuario</string>
+    <string name="Contra">Contraseña</string>
+    <string name="confircontra">Confirmar Contraseña</string>
+    <string name="Correo">Correo Electronico</string>
+    <string name="celular">Celular</string>
+    <string name="Fechnaci">Fecha De Nacimiento</string>
+    <string name="btnregistro">Registrarse</string>
 
 </resources>
