@@ -44,7 +44,7 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="113dp"
+            android:layout_width="66dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/usuario" />
@@ -63,16 +63,19 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="113dp"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/candado" />
 
         <EditText
-            android:layout_width="300dp"
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="?android:attr/editTextBackground"
-            android:hint="Ingrese su contraseña"></EditText>
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Ingrese su contraseña"
+            android:inputType="textPassword" />
 
     </LinearLayout>
 
