@@ -28,4 +28,7 @@
     <string name="dislike">No me gusta</string>
     <string name="follow">Seguir</string>
 
+    //Rutas
+    <string name="sachica">CAMINATA DE SACHICA</string>
+
 </resources>
