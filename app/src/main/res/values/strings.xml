@@ -23,4 +23,9 @@
     <string name="Fechnaci">Fecha De Nacimiento</string>
     <string name="btnregistro">Registrarse</string>
 
+    //Reacciones
+    <string name="like">Me gusta</string>
+    <string name="dislike">No me gusta</string>
+    <string name="follow">Seguir</string>
+
 </resources>
