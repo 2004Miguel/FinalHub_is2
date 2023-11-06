@@ -1,90 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:scaleType="centerCrop"
-        app:srcCompat="@drawable/titulo">
-    </ImageView>
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:layout_gravity="end"
-        android:scaleType="centerCrop"
-        app:srcCompat="@drawable/buscar">
-    </ImageView>
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:layout_height="40dp">
-        <EditText
-            android:layout_width="match_parent"
-            android:hint="@string/buscar"
-            android:layout_height="wrap_content">
-        </EditText>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:gravity="center"
+        android:orientation="vertical"
         android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/titulo">
+        </ImageView>
 
-        <Button
-            android:id="@+id/para_ti"
+        <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/para_ti"
-            android:backgroundTint="@color/white"
-            android:textColor="@color/black"
-            android:text="@string/para_ti">
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/buscar">
+        </ImageView>
 
-        </Button>
-        <Button
-            android:layout_width="wrap_content"
-            android:text="@string/videos"
-            android:id="@+id/videos"
-            android:backgroundTint="@color/white"
-            android:textColor="@color/black"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="40dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="@string/buscar"
+                android:layout_height="48dp">
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
             android:layout_height="wrap_content">
-        </Button>
-        <Button
-            android:layout_width="wrap_content"
-            android:text="@string/rutas"
-            android:id="@+id/rutas"
-            android:backgroundTint="@color/white"
-            android:textColor="@color/black"
-            android:layout_height="wrap_content">
-        </Button>
-        <Button
-            android:layout_width="wrap_content"
-            android:text="@string/agencias"
-            android:id="@+id/agencias"
-            android:backgroundTint="@color/white"
-            android:textColor="@color/black"
-            android:layout_height="wrap_content">
-        </Button>
+
+            <Button
+                android:id="@+id/para_ti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/para_ti"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:text="@string/para_ti">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:text="@string/videos"
+                android:id="@+id/videos"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:text="@string/rutas"
+                android:id="@+id/rutas"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:text="@string/agencias"
+                android:id="@+id/agencias"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                app:srcCompat="@drawable/sachica"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="10dp"
+                android:layout_height="200dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:id="@+id/likeRutas"
+                    android:text="@string/like"
+                    android:layout_height="wrap_content">
+                </Button>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:id="@+id/dislikeRutas"
+                    android:text="@string/dislike"
+                    android:layout_height="wrap_content">
+                </Button>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:id="@+id/followRutas"
+                    android:text="@string/follow"
+                    android:layout_height="wrap_content">
+                </Button>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:text="@string/screen_rutas"
-            android:layout_height="wrap_content">
-        </TextView>
-    </LinearLayout>
-
-</LinearLayout>
+</ScrollView>
