@@ -7,9 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.airbnb.lottie.LottieAnimationView;
+
 public class MainActivity extends AppCompatActivity {
 
     Button videos, rutas, agencias;
+    LottieAnimationView like, dislike;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +23,24 @@ public class MainActivity extends AppCompatActivity {
         videos = findViewById(R.id.videos);
         rutas = findViewById(R.id.rutas);
         agencias = findViewById(R.id.agencias);
+        like = findViewById(R.id.likeReaction);
+        dislike = findViewById(R.id.dislikeReaction);
+
+
+        like.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                like.playAnimation();
+            }
+        });
+
+        dislike.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dislike.playAnimation();
+            }
+        });
+
 
         /*parati.setOnClickListener(new View.OnClickListener() {
             @Override
