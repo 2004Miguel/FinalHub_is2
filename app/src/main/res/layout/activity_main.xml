@@ -122,7 +122,7 @@
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/dislikeReaction"
                 android:layout_width="50dp"
-                app:lottie_rawRes="@raw/dislike"
+                app:lottie_rawRes="@raw/dislike2"
                 app:lottie_autoPlay="false"
                 android:layout_height="50dp" />
 
