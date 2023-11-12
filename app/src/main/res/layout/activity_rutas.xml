@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/Thistle"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -80,43 +81,37 @@
             </Button>
         </LinearLayout>
 
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/sachica"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="10dp"
+            android:layout_height="200dp">
+        </ImageView>
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="vertical"
-            android:layout_height="match_parent">
-            <ImageView
-                android:layout_width="match_parent"
-                app:srcCompat="@drawable/sachica"
-                android:scaleType="centerCrop"
-                android:layout_marginBottom="10dp"
-                android:layout_height="200dp">
-            </ImageView>
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/likeReaction"
+                android:layout_width="50dp"
+                app:lottie_rawRes="@raw/like"
+                app:lottie_autoPlay="false"
+                android:layout_height="50dp" />
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:id="@+id/likeRutas"
-                    android:text="@string/like"
-                    android:layout_height="wrap_content">
-                </Button>
-                <Button
-                    android:layout_width="wrap_content"
-                    android:id="@+id/dislikeRutas"
-                    android:text="@string/dislike"
-                    android:layout_height="wrap_content">
-                </Button>
-                <Button
-                    android:layout_width="wrap_content"
-                    android:id="@+id/followRutas"
-                    android:text="@string/follow"
-                    android:layout_height="wrap_content">
-                </Button>
-
-            </LinearLayout>
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/dislikeReaction"
+                android:layout_width="50dp"
+                app:lottie_rawRes="@raw/dislike2"
+                app:lottie_autoPlay="false"
+                android:layout_height="50dp" />
 
         </LinearLayout>
 
