@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/Thistle"
     android:orientation="vertical"
     tools:context=".MainActivity">
     <LinearLayout
@@ -80,31 +81,17 @@
             </Button>
         </LinearLayout>
 
-        <LinearLayout
+
+
+        <ImageView
             android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content">
-            <ImageView
-                android:layout_width="200dp"
-                android:paddingLeft="10dp"
-                android:paddingTop="15dp"
-                app:srcCompat="@drawable/paisaje1"
-                android:scaleType="centerCrop"
-                android:layout_height="300dp">
-
-            </ImageView>
-
-            <ImageView
-                android:layout_width="190dp"
-                app:srcCompat="@drawable/paisaje2"
-                android:layout_marginLeft="10dp"
-                android:paddingTop="15dp"
-                android:scaleType="centerCrop"
-                android:layout_height="300dp">
-            </ImageView>
-        </LinearLayout>
-
-
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            app:srcCompat="@drawable/paisaje1"
+            android:scaleType="centerCrop"
+            android:layout_height="200dp">
+        </ImageView>
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="horizontal"
@@ -128,30 +115,97 @@
 
         </LinearLayout>
 
-
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/paisaje2"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:scaleType="centerCrop"
+            android:layout_height="200dp">
+        </ImageView>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
 
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="500dp"
-                android:scaleType="centerCrop"
-                android:layout_marginLeft="10dp"
-                app:srcCompat="@drawable/paisaje3">
-            </ImageView>
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="50dp"
+                app:lottie_rawRes="@raw/like"
+                app:lottie_autoPlay="false"
+                android:layout_height="50dp" />
 
-            <ImageView
-                android:layout_width="180dp"
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/paisaje4"
-                android:layout_marginLeft="10dp"
-                android:layout_height="300dp">
-
-            </ImageView>
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="50dp"
+                app:lottie_rawRes="@raw/dislike2"
+                app:lottie_autoPlay="false"
+                android:layout_height="50dp" />
 
         </LinearLayout>
+
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:srcCompat="@drawable/paisaje3">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="50dp"
+                app:lottie_rawRes="@raw/like"
+                app:lottie_autoPlay="false"
+                android:layout_height="50dp" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="50dp"
+                app:lottie_rawRes="@raw/dislike2"
+                app:lottie_autoPlay="false"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/paisaje4"
+            android:layout_marginLeft="10dp"
+            android:layout_height="200dp">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="50dp"
+                app:lottie_rawRes="@raw/like"
+                app:lottie_autoPlay="false"
+                android:layout_height="50dp" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="50dp"
+                app:lottie_rawRes="@raw/dislike2"
+                app:lottie_autoPlay="false"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
 
     </LinearLayout>
 
