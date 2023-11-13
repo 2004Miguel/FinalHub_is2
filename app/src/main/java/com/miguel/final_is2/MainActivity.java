@@ -12,7 +12,7 @@ import com.airbnb.lottie.LottieAnimationView;
 public class MainActivity extends AppCompatActivity {
 
     Button videos, rutas, agencias;
-    LottieAnimationView like, dislike;
+    LottieAnimationView like, like2, like3, like4, dislike, dislike2, dislike3, dislike4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +23,16 @@ public class MainActivity extends AppCompatActivity {
         videos = findViewById(R.id.videos);
         rutas = findViewById(R.id.rutas);
         agencias = findViewById(R.id.agencias);
+
         like = findViewById(R.id.likeReaction);
+        like2 = findViewById(R.id.likeReaction2);
+        like3 = findViewById(R.id.likeReaction3);
+        like4 = findViewById(R.id.likeReaction4);
+
         dislike = findViewById(R.id.dislikeReaction);
+        dislike2 = findViewById(R.id.dislikeReaction2);
+        dislike3 = findViewById(R.id.dislikeReaction3);
+        dislike4 = findViewById(R.id.dislikeReaction4);
 
 
         like.setOnClickListener(new View.OnClickListener() {
@@ -38,6 +46,48 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 dislike.playAnimation();
+            }
+        });
+
+        like2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                like2.playAnimation();
+            }
+        });
+
+        like3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                like3.playAnimation();
+            }
+        });
+
+        like4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                like4.playAnimation();
+            }
+        });
+
+        dislike2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dislike2.playAnimation();
+            }
+        });
+
+        dislike3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dislike3.playAnimation();
+            }
+        });
+
+        dislike4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dislike4.playAnimation();
             }
         });
 

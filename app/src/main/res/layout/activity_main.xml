@@ -132,6 +132,7 @@
             android:layout_height="wrap_content">
 
             <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/likeReaction2"
                 android:layout_width="50dp"
                 app:lottie_rawRes="@raw/like"
                 app:lottie_autoPlay="false"
@@ -139,6 +140,7 @@
 
             <com.airbnb.lottie.LottieAnimationView
                 android:layout_width="50dp"
+                android:id="@+id/dislikeReaction2"
                 app:lottie_rawRes="@raw/dislike2"
                 app:lottie_autoPlay="false"
                 android:layout_height="50dp" />
@@ -166,12 +168,14 @@
 
             <com.airbnb.lottie.LottieAnimationView
                 android:layout_width="50dp"
+                android:id="@+id/likeReaction3"
                 app:lottie_rawRes="@raw/like"
                 app:lottie_autoPlay="false"
                 android:layout_height="50dp" />
 
             <com.airbnb.lottie.LottieAnimationView
                 android:layout_width="50dp"
+                android:id="@+id/dislikeReaction3"
                 app:lottie_rawRes="@raw/dislike2"
                 app:lottie_autoPlay="false"
                 android:layout_height="50dp" />
@@ -183,6 +187,7 @@
             android:scaleType="centerCrop"
             app:srcCompat="@drawable/paisaje4"
             android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_height="200dp">
         </ImageView>
         <LinearLayout
@@ -194,12 +199,14 @@
 
             <com.airbnb.lottie.LottieAnimationView
                 android:layout_width="50dp"
+                android:id="@+id/likeReaction4"
                 app:lottie_rawRes="@raw/like"
                 app:lottie_autoPlay="false"
                 android:layout_height="50dp" />
 
             <com.airbnb.lottie.LottieAnimationView
                 android:layout_width="50dp"
+                android:id="@+id/dislikeReaction4"
                 app:lottie_rawRes="@raw/dislike2"
                 app:lottie_autoPlay="false"
                 android:layout_height="50dp" />
