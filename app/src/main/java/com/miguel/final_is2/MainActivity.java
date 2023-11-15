@@ -19,6 +19,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
+
+
+
+
+
+
+
+
+
         //parati = findViewById(R.id.para_ti);
         videos = findViewById(R.id.videos);
         rutas = findViewById(R.id.rutas);

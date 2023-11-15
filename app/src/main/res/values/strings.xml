@@ -22,6 +22,7 @@
     <string name="celular">Celular</string>
     <string name="Fechnaci">Fecha De Nacimiento</string>
     <string name="btnregistro">Registrarse</string>
+    <string name="ingresar">Ingresar</string>
 
     //Reacciones
     <string name="like">Me gusta</string>

@@ -50,10 +50,12 @@
             android:src="@drawable/usuario" />
 
         <EditText
+            android:id="@+id/etUsuario"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:background="?android:attr/editTextBackground"
-            android:hint="Ingrese su usuario o correo"></EditText>
+            android:hint="Ingrese su usuario o correo">
+        </EditText>
 
     </LinearLayout>
 
@@ -69,7 +71,7 @@
             android:src="@drawable/candado" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/etContrasena"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -105,10 +107,10 @@
             android:text="Registrarse" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnIngresar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login" />
+            android:text="@string/ingresar" />
 
 
     </LinearLayout>
