@@ -52,7 +52,7 @@ public class rutas extends AppCompatActivity {
         agencias.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent ag = new Intent(rutas.this, com.miguel.final_is2.agencias.class);
+                Intent ag = new Intent(rutas.this, com.miguel.final_is2.MainActivityGuias.class);
 
                 startActivity(ag);
             }

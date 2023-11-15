@@ -6,7 +6,7 @@
     <string name="para_ti">Para ti</string>
     <string name="videos">Videos</string>
     <string name="rutas">Rutas</string>
-    <string name="agencias">Agencias</string>
+    <string name="agencias">Guias</string>
     <string name="screen_parati">Estas en la pantalla de "para ti"</string>
     <string name="screen_videos">Estas en la pantalla de "videos"</string>
     <string name="screen_agencias">Estas en la pantalla de "agencias"</string>
@@ -30,5 +30,16 @@
 
     //Rutas
     <string name="sachica">CAMINATA DE SACHICA</string>
+
+    //Guias
+    <string name="horaMensaje">18:30</string>
+    <string name="nombrePersona">Juan José Munera</string>
+    <string name="ultimoMensaje">Bienvenido al equipo</string>
+    <string name="nombreAgente">Nombre</string>
+    <string name="mensaje">Agencia</string>
+    <string name="telefono">Telefono</string>
+    <string name="numeroTelefono">+573145673421</string>
+    <string name="pais">Ciudad</string>
+    <string name="nombrePais">Inglaterra</string>
 
 </resources>
