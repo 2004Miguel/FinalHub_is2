@@ -9,7 +9,8 @@ import android.widget.Button;
 
 public class rutas extends AppCompatActivity {
 
-    Button parati, videos, rutas, agencias;
+    Button parati, videos, rutas, agencias,Perfilconfig;
+
 
 
     @Override
@@ -21,6 +22,7 @@ public class rutas extends AppCompatActivity {
         videos = findViewById(R.id.videos);
         rutas = findViewById(R.id.rutas);
         agencias = findViewById(R.id.agencias);
+        Perfilconfig = findViewById(R.id.PerfilConf);
 
         parati.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +55,15 @@ public class rutas extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent ag = new Intent(rutas.this, com.miguel.final_is2.MainActivityGuias.class);
+
+                startActivity(ag);
+            }
+        });
+
+        Perfilconfig.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ag = new Intent(rutas.this, Perfilconfig.class);
 
                 startActivity(ag);
             }

@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class videos extends AppCompatActivity {
 
-    Button parati, videos, rutas, agencias;
+    Button parati, videos, rutas, agencias, Exit;
 
 
     @Override
@@ -21,6 +21,7 @@ public class videos extends AppCompatActivity {
         videos = findViewById(R.id.videos);
         rutas = findViewById(R.id.rutas);
         agencias = findViewById(R.id.agencias);
+        Exit = findViewById(R.id.PerfilConf);
 
         parati.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +54,15 @@ public class videos extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent ag = new Intent(videos.this, com.miguel.final_is2.MainActivityGuias.class);
+
+                startActivity(ag);
+            }
+        });
+
+        Exit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ag = new Intent(videos.this, com.miguel.final_is2.Perfilconfig.class);
 
                 startActivity(ag);
             }

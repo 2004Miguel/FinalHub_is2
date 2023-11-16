@@ -43,4 +43,19 @@
     <string name="pais">Ciudad</string>
     <string name="nombrePais">Inglaterra</string>
 
+    //PerfilConfig
+    <string name="Profile">Profile</string>
+    <string name="Username">Username</string>
+    <string name="First_name">First Name</string>
+    <string name="Last_name">Last name</string>
+    <string name="Email">Email</string>
+    <string name="Account">Account</string>
+    <string name="btnChangePassword">Change Password</string>
+    <string name="btnExit">Exit</string>
+    <string name="UsernameDB">admin</string>
+    <string name="First_nameDB">Tony</string>
+    <string name="Last_nameDB">Stark</string>
+    <string name="EmailDB">starkindustrys@avengers.com</string>
+    <string name="btnperfilConf">Perfil</string>
+
 </resources>

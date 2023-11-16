@@ -54,6 +54,9 @@
             android:name=".MainActivity"
             android:exported="false"
             android:parentActivityName=".login" />
+        <activity
+            android:name=".Perfilconfig"
+            android:exported="false" />
     </application>
 
 </manifest>

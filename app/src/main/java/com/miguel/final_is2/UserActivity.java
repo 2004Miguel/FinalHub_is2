@@ -13,7 +13,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 public class UserActivity extends AppCompatActivity {
 
     String nombre,mensaje,hora,telefono,pais;
-    Button parati, videos, rutas, agencias;
+    Button parati, videos, rutas, agencias, Exit;
     TextView textoNombre, textoMensaje,textoHora,textoTelefono,textoPais;
     int imagen;
     CircleImageView image;
@@ -26,6 +26,7 @@ public class UserActivity extends AppCompatActivity {
         videos = findViewById(R.id.videos);
         rutas = findViewById(R.id.rutas);
         agencias = findViewById(R.id.agencias);
+        Exit = findViewById(R.id.PerfilConf);
 
         textoNombre = findViewById(R.id.textoNombre);
         textoMensaje = findViewById(R.id.textoMensaje);
@@ -80,6 +81,15 @@ public class UserActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent ag = new Intent(UserActivity.this, com.miguel.final_is2.rutas.class);
+
+                startActivity(ag);
+            }
+        });
+
+        Exit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ag = new Intent(UserActivity.this, Perfilconfig.class);
 
                 startActivity(ag);
             }

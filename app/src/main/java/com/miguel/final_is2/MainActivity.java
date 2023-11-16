@@ -11,7 +11,7 @@ import com.airbnb.lottie.LottieAnimationView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button videos, rutas, agencias;
+    Button videos, rutas, agencias, Exit;
     LottieAnimationView like, like2, like3, like4, dislike, dislike2, dislike3, dislike4;
 
     @Override
@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         videos = findViewById(R.id.videos);
         rutas = findViewById(R.id.rutas);
         agencias = findViewById(R.id.agencias);
+        Exit = findViewById(R.id.PerfilConf);
 
         like = findViewById(R.id.likeReaction);
         like2 = findViewById(R.id.likeReaction2);
@@ -134,6 +135,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent ag = new Intent(MainActivity.this, com.miguel.final_is2.MainActivityGuias.class);
+
+                startActivity(ag);
+            }
+        });
+
+        Exit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ag = new Intent(MainActivity.this, com.miguel.final_is2.Perfilconfig.class);
 
                 startActivity(ag);
             }
